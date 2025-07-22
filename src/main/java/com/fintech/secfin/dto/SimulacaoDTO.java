@@ -1,0 +1,20 @@
+package com.fintech.secfin.dto;
+
+public class SimulacaoDTO {
+
+    private String descricao;
+    private double valorObjetivo;
+    private int meses;
+
+    public String getDescricao() { return descricao; }
+
+    public void setDescricao(String descricao) { this.descricao = descricao; }
+
+    public double getValorObjetivo() { return valorObjetivo; }
+
+    public void setValorObjetivo(double valorObjetivo) { this.valorObjetivo = valorObjetivo; }
+
+    public int getMeses() { return meses; }
+
+    public void setMeses(int meses) { this.meses = meses; }
+}
